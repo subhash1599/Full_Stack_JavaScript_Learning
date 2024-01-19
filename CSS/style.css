@@ -1,0 +1,17 @@
+div>ol{
+    background-color:rosybrown;
+    color:white;
+}
+
+
+    .beginning::before{
+        content: "Hi Everyone";
+        color: brown;
+        background-color: aliceblue;
+    }
+
+    .end::after{
+        content: "Thank You for your Time";
+        color:aliceblue;
+        background-color: #000;
+    }
