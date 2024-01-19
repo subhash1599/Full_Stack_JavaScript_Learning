@@ -1,4 +1,73 @@
-div>ol{
+
+/* .input:hover::before{
+    content:'Please enter username';
+    size: 300px;
+    color:black;
+    background-color: yellow;
+} */
+
+.email:hover::before{
+    content:'';
+    color: blue;
+    background-color: bisque;
+}
+
+
+.btn-primary{
+    background-color: #2C3335;
+    color: #FFF222;
+    padding-inline: 12px;
+
+}
+
+.btn-primary:hover{
+    content: 'please submit';
+    border: #FFF222 2px solid;
+    background-color: whitesmoke;
+    color: pink;
+
+
+}
+
+.input:hover::after{
+    content:'Hello';
+    display: block;
+    width: 20px;
+    height:20px;
+    border-radius: 50px;
+    background-color: orange;
+    color: aqua;
+
+
+}
+
+a:hover{
+    color: darkred;
+}
+
+a:visited{
+    color:black;
+}
+
+input:focus{
+
+    background-color: #2C3335;
+    color: yellow;
+    height: 60px;
+
+}
+
+li:nth-child(even){
+    background-color: #FFF222;
+    color: pink;
+
+}
+/* *{
+  background-color: pink;  
+} */
+
+/* div>ol{
     background-color:rosybrown;
     color:white;
-}
+} */
+
