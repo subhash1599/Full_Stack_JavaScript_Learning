@@ -71,3 +71,24 @@ li:nth-child(even){
     color:white;
 } */
 
+.one{
+    list-style-type: lower-greek;
+}
+
+.box1{
+
+    height: 250px;
+    width: 400px;
+    border: 2px solid yellowgreen;
+    width: 300;
+    border-radius: 17px;
+}
+
+.box2{
+
+    height: 250px;
+    width: 400px;
+    border: #2C3335 solid 2px;
+    width: 300;
+    border-radius: 17px;
+}   
