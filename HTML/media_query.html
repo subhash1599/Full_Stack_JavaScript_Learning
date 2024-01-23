@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuery</title>
+    <style>
+        body{
+            display: flex; 
+            background-color: white;
+            color: tomato;
+            border: 2px solid black;
+            gap: 17px;
+            border-radius: 10px;
+            padding: 50px;
+
+            
+
+
+
+        }
+
+        .container{
+            display: flex;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 5px;
+            gap: 49px;
+            padding: 30px;
+        }
+
+        @media (max-width:500px){
+            .container{
+                background-color: brown;
+            }
+
+        @media (min-width:200px) and (max-width:300px){
+            body{
+                display: flex;
+                gap:100px;
+                border: 10px solid black;
+                border-radius: 390px ;
+                background-color: yellow;
+                
+            }
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    	<div>Hello</div>
+        <div>HI</div>
+        <div>Who</div>
+        <div>Bolo</div>
+        <div>Zolo</div>
+        <div>Hen</div>
+        <div>Ken</div>
+
+        <div class="container">
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+
+        </div>
+
+
+</body>
+</html>
