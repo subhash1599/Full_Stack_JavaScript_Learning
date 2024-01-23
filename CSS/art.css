@@ -1,0 +1,18 @@
+.container {
+
+    /* display: flex; */
+    height: 200px;
+    border: 2px solid black;
+    /* align-items: flex-end; */
+
+}
+
+.item {
+
+
+    border: 2px solid black;
+    margin: 30px;
+    background-color: yellow;
+    padding:30px
+
+}
