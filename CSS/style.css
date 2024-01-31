@@ -1,4 +1,4 @@
-div>ol{
+/* div>ol{
     background-color:rosybrown;
     color:white;
 }
@@ -14,4 +14,69 @@ div>ol{
         content: "Thank You for your Time";
         color:aliceblue;
         background-color: #000;
+    } */
+
+
+
+
+/* Base styles for all devices */
+
+
+body {
+
+    margin: 0;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+}
+
+.content {
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+        /* Full width on small screens */
     }
+
+    article {
+        display: block;
+        /* Stack articles vertically */
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .content {
+        display: flex;
+        /* Two columns on medium screens */
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 50%;
+        /* Each article takes half the width */
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .content {
+        display: flex;
+        /* Two columns with wider spacing on large screens */
+        justify-content: space-between;
+    }
+
+    article {
+        width: 45%;
+        /* Adjust for spacing */
+    }
+}

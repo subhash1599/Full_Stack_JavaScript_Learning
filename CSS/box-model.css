@@ -1,0 +1,13 @@
+.container {
+
+    text-align: center;
+    /* CSS Box Model Properties */
+    width: 200px;
+    height: 150px;
+    padding: 40px;
+    border: 2px solid black;
+    margin: 60px;
+
+
+
+}

@@ -1,16 +1,97 @@
-.pos{
+/* .pos-one{
+    
     border: 1px solid black ;
     display: inline-block;
     height:70px ;
     width:70px ;
     text-align: center;
     border-radius: 10px;
+    position: fixed;
+    top:40px;
+    right: 10px; 
 }
 
-#three{
+.pos-two{
+    
+    border: 1px solid black ;
+    display: inline-block;
+    height:70px ;
+    width:70px ;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: px;
+    bottom: 5px;
+}
 
+
+
+
+#three{
+    border: 2px solid black;
+    display: inline-block;
     position: relative;
     top: 100px;
     left:150px;
     right:5px;
 }
+
+
+.pos-four{
+    
+    border: 1px solid black ;
+    display: inline-block;
+    height:70px ;
+    width:70px ;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    left: 100px;
+    right: 10px;
+}
+
+.pos-five{
+    border: 1px solid black ;
+    display: inline-block;
+    height:70px ;
+    width:70px ;
+    text-align: center;
+    border-radius: 10px;
+    position: static;
+} */
+
+
+
+.container-one {
+    background-color: bisque;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    position:fixed;
+    top: 1px;
+    right: 34px;
+     
+     }
+    
+
+
+
+.container {
+
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+
