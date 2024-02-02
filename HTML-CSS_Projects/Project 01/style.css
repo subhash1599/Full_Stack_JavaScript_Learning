@@ -1,0 +1,116 @@
+
+
+*{
+    padding: 0;
+    margin:auto;
+    box-sizing: border-box;
+    font-family:'Poppins';
+}
+
+
+
+
+
+.container{
+    max-height: 500px;
+    margin: auto;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+
+.navbar-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+
+
+li:first-child{
+    color: black;
+}
+
+
+
+.navbar-container img{
+    width: 80px;
+}
+
+.growlist{
+    display: flex;
+}
+
+.list{
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;  
+    padding-right: 400px;
+}
+
+.heading-text{
+    font-size: 50px;
+    padding-left: 60px;
+    padding-right: 800px;
+}
+
+.heading-text span{
+    color: #452eb8;
+}
+
+.description{
+
+    padding-top: 10px;
+    padding-left:60px ;
+    padding-right: 900px;
+}
+
+.nav-button{
+    background: #452eb8;
+    border: 0px;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+.nav-button.btn{
+    background: #8773ed;
+    border: 0px;
+    color: white;
+    padding:22px 39px;
+    border-radius: 8px;
+    margin-top:40px ;
+    margin-left: 60px;
+    text-align: center;
+    
+}
+
+
+.banner-container{
+
+    margin: 90px 20px;
+}
+
+
+.banner-container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 420px;
+    left:250px;
+    /* height: 600px; */
+    overflow: hidden;
+    height: 100vh;
+    width:57vw;
+
+}
+
+
+/* Good Work */

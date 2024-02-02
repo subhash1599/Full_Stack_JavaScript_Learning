@@ -1,0 +1,162 @@
+
+*{
+
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+    
+}
+
+/* .container{
+    margin-left: 8%;
+    margin-right: 8%;
+} */
+
+
+.navbar-container img{
+    width: 90px;
+    margin-left: 0;
+}
+
+.navbar-container{
+    display: flex;
+    margin-top: 50px;
+
+    margin-bottom: 100px;
+}
+
+.list{
+    font-weight: 900;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.list li:first-child{
+    text-decoration: underline;
+}
+
+
+.nav-button{
+    
+
+    width: 100px;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+
+.search-icon svg{
+    width:1.5% ;
+    position: absolute;
+    top:49px;
+    right:220px;
+    
+}
+
+
+
+.hero-container{
+    margin-left: 8%;
+}
+
+.hero-heading{
+    font-size: 50px;
+    display: flex   ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.hero-description{
+    display: flex   ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 170px;
+}
+
+.button-email{
+
+    background: white;
+    color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.button-join{
+
+    background: #000;
+    color: white;
+    padding: 2px 5px;
+    margin-left: 15px;
+}
+
+.hero-container div img[alt="person-hero-iamge"]{
+    background: #000;
+    height: 57vh;
+    position: absolute;
+    top:250px;
+    left:52px;
+    bottom: 30px;
+
+
+}
+
+.hero-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container span img[alt="globe-pattern"]{
+    height:8vh ;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+        
+}
+
+.hero-container .star:nth-of-type(2) img{
+
+    height: 8vh;;
+    position: absolute;
+    top:150px;
+    right:100px;
+    left: 890px;
+}
+.hero-container .star:nth-of-type(3) img{
+
+    height: 6vh;;
+    position: absolute;
+    bottom: 30px;
+    left:450px;
+}
+
+
+.hero-container span img[alt="square-pattern"]{
+    height: 40vh;
+    position: relative;
+    top: 90px;
+    left:30px
+}
+
+.hero-container button{
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.icons span img{
+    height: 5vh;
+    margin: 5px;
+}
+
+
+/* Keep Going Ramu */
