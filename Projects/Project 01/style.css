@@ -1,0 +1,40 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+.banner-container button{
+    background-color: #74B9FF;
+    padding: 10px;
+    border-radius: 160px;
+}
+
+
+
+
+
+.banner-container img{
+
+    position: absolute;
+    top:40px;
+    right: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar-container,.list{
+    display: flex;
+}
+
+.heading-text,.description{
+    text-align: left;
+    text
+} */
+
