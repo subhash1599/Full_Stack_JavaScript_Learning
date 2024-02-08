@@ -1,116 +1,100 @@
-
-
 *{
+
+    margin:0;
     padding: 0;
-    margin:auto;
-    box-sizing: border-box;
-    font-family:'Poppins';
+    font-family: "Poppins"
 }
 
 
+/* Nav bar styling */
 
-
-
-.container{
-    max-height: 500px;
-    margin: auto;
-    margin-left: 4%;
-    margin-bottom: 4%;
-}
 
 
 .navbar-container{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    /* gap: 10px; */
+    display:flex;
+    margin: 60px;
 }
-
-
-
-li:first-child{
-    color: black;
-}
-
-
 
 .navbar-container img{
-    width: 80px;
+    height:30px;
+    position: relative;
+    bottom:3px;
 }
 
-.growlist{
-    display: flex;
-}
+
 
 .list{
-    
     list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 19px;  
-    padding-right: 400px;
+    gap:40px;
+    color: #A4B0BD;
+    font-weight:500;
+    margin-left: 60px;
+}
+
+li:first-child{
+    color: #2F363F;
+}
+
+
+
+
+.nav-button{
+    background-color: #5855B2;
+    color: white;
+    border:0px;
+}
+
+
+
+
+.button-group button{
+    position: relative;
+    bottom: 13px;
+    left:390px;
+    padding:15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    line-height:em; 
+}
+
+/* Hero Section Styling */
+.banner-container{
+
+    margin: 120px 60px;
+    
 }
 
 .heading-text{
+    color:#3C2F60;
     font-size: 50px;
-    padding-left: 60px;
-    padding-right: 800px;
+    margin-right: 680px;
+
 }
 
 .heading-text span{
-    color: #452eb8;
+    color: #5855B2;
 }
+
+
 
 .description{
-
-    padding-top: 10px;
-    padding-left:60px ;
-    padding-right: 900px;
-}
-
-.nav-button{
-    background: #452eb8;
-    border: 0px;
-    color: white;
-    padding: 13px 20px;
-    border-radius: 5px;
+    color: #A8A9A8;
+    margin: 15px 0;
+    margin-right: 770px;
 }
 
 .nav-button.btn{
-    background: #8773ed;
-    border: 0px;
-    color: white;
-    padding:22px 39px;
-    border-radius: 8px;
-    margin-top:40px ;
-    margin-left: 60px;
+    margin:50px 0px;
+    padding: 20px  50px;
+    border-radius: 12px;
     text-align: center;
-    
 }
-
-
-.banner-container{
-
-    margin: 90px 20px;
-}
-
 
 .banner-container img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    height: 650px;
     position: relative;
-    bottom: 420px;
-    left:250px;
-    /* height: 600px; */
-    overflow: hidden;
-    height: 100vh;
-    width:57vw;
-
+    bottom:550px;
+    left:369px;
 }
-
-
-/* Good Work */
