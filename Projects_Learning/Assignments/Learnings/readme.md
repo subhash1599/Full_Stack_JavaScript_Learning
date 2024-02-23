@@ -1,4 +1,4 @@
-# I have built these  projects using HTML and CSS. #
+# I have built these  projects using HTML and CSS.
 
 ## Project 1 - Headphone For Meditation
 ![Headphone For Meditation](<Project 1- Headphone/output.png>)
@@ -9,7 +9,7 @@
 
 
 ## Project 3 -  Justice for people 
-![ Justice for people ](<Project 3- Justice for people/output.png>)
+![ Justice for people ](<Project 3- Justice for people/Output.png>)
 
 
 ## Project 4 - SEO Master
